@@ -1,0 +1,211 @@
+! Parts (C) 1996 By Greg J. Badros <gjb@cs.duke.edu>
+! You may use this file as specified under the GNU General Public License
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Xaw3d
+*beNiceToColormap:	False
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! xterm (and friends)
+
+XTerm*highlightSelection:  true
+! Uncomment this to use color for the bold attribute
+XTerm*VT100*colorBDMode:  on
+XTerm*VT100*colorBD:  blue
+! Uncomment this to use color for underline attribute
+XTerm.VT100*colorULMode:  on
+XTerm.VT100*underLine:  off
+XTerm*VT100*colorUL:  magenta
+! Uncomment this to display the scrollbar 
+XTerm*scrollBar:  true
+
+! This resource specifies whether or not to ignore the 'alternate screen'
+! of applications such as vi.  When it is on, these applications will restore
+! the contents of the screen when they are exited to what they were before
+! they were started.  When it is off, the contents of vi will remain on the
+! screen after the program is quit.
+XTerm.VT100.titeInhibit:  true
+
+! Uncomment this to turn off color mode in your xterms
+!XTerm.VT100*colorMode:  off
+XTerm.VT100*dynamicColors:  on
+
+! Number of lines of scrollback to save
+XTerm*saveLines:	1500
+
+xterm*reverseWrap:	true
+
+*visualBell:		true
+*scrollTtyOutput:	False
+*scrollKey:		True
+Scrollbar.JumpCursor:	True
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! kterm stuff, the rest of above xterm setting
+KTerm*saveLines:        1500
+KTerm*allowSendEvents:  true
+
+! for 800x600 or less resolution display
+! following 6 lines set 12pt fonts
+!KTerm*fontList:         -mmnkaname-fixed-medium-r-normal--12-*
+!KTerm*boldFontList:     -mmnkaname-fixed-bold-r-normal--12-*
+!KTerm*kanjimode:        euc
+!KTerm*font:             a12
+!KTerm*kanjiFont:        k12
+!KTerm*RomanKanaFont:    a12
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! emacs, emacs21, xemacs
+
+!Emacs.geometry: 80x30
+Emacs*bitmapIcon: on
+
+!! デフォルトのフォント設定
+!! Vine Linux 2.5 以降では .emacs-faces.el で設定
+Emacs*fontsize: 14
+! デフォルトのフォント、メニューバー/メニューのフォント
+! Emacs20 ではメニューバーのフォント設定は必要
+Emacs*font: -alias-fixed-medium-r-normal--14-*-*-*-*-*-*-*
+Emacs*menubar*font: -alias-sans-bold-r-normal--12-*-*-*-*-*-*-*
+Emacs*menu*fontSet: -alias-sans-medium-r-normal--12-*-*-*-*-*-*-*
+Emacs*menubar*fontSet: -alias-sans-bold-r-normal--12-*-*-*-*-*-*-*
+
+! スクロールバーの幅
+Emacs*scrollBarWidth: 14
+! メニューバーの影の厚み
+Emacs*menubar*shadowThickness: 1
+! メニューバーのマージン
+Emacs*menubar*margin: 0
+! 行間隔をポイントで指定
+!Emacs*lineSpace: 2
+! 
+Emacs*XlwMenu*margin: 0
+Emacs*internalBorder: 0
+Emacs*internalBorderWidth: 0
+ 
+! カラー設定
+! Vine Linux 2.5 以降では .emacs-faces.el で設定
+! .emacs-faces.el が評価されるまでの既定値
+! for Emacs 20, Emacs21
+Emacs*menubar*foreground:       Black
+Emacs*menubar*background:       gray90
+Emacs*menu*foreground:  Black
+Emacs*menu*background:  gray90
+Emacs*background: #333366
+Emacs*foreground: White
+Emacs*pointerColor: White
+Emacs*cursorColor: White
+! for XEmacs
+XEmacs*menubar*foreground:       Black
+XEmacs*menubar*background:       gray90
+XEmacs*menu*foreground:  Black
+XEmacs*menu*background:  gray90
+XEmacs*background: grey80
+XEmacs*foreground: Black
+XEmacs*pointerColor: White
+XEmacs*cursorColor: White
+
+
+! Emacs のフォント設定
+! Vine Linux 2.5 以降では .emacs-fontset.el で設定
+!Emacs*fontSetList: 0,1,2,3,4,5
+!Emacs.Fontset:-alias-fixed-medium-r-normal-*-14-*-*-*-*-*-fontset-14
+!Emacs.Fontset-0:-alias-fixed-medium-r-normal-*-10-*-*-*-*-*-fontset-10
+!Emacs.Fontset-1:-alias-fixed-medium-r-normal-*-12-*-*-*-*-*-fontset-12
+!Emacs.Fontset-2:-alias-fixed-medium-r-normal-*-14-*-*-*-*-*-fontset-14
+!Emacs.Fontset-3:-alias-fixed-medium-r-normal-*-16-*-*-*-*-*-fontset-16
+!Emacs.Fontset-4:-alias-fixed-medium-r-normal-*-20-*-*-*-*-*-fontset-20
+!Emacs.Fontset-5:-alias-fixed-medium-r-normal-*-24-*-*-*-*-*-fontset-24
+
+! color-mate による emacs/xemacs の色指定
+! SunnyDay.X  : -*- xrdb -*-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!
+!!   Color-Mate  Ver.10.1
+!!         by 横田 裕思 (yokota@netlab.is.tsukuba.ac.jp)
+!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!
+!!   Coloring mule/emacs/xemacs to more easier and more fun.
+!!   mule / emacs / xemacs で、色を使用して見やすい画面にします
+!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!! Author: Hiroshi Yokota <yokota@netlab.is.tsukuba.ac.jp>
+!! Maintainer: Hiroshi Yokota <yokota@netlab.is.tsukuba.ac.jp>
+!! Version: 10.1
+!! Keywords: color hilit19 font-lock color-mate
+!! Content-Type: text/plain; charset=x-euc-jp
+
+!$Id: .Xresources,v 1.9 2004/04/03 18:19:03 daisuke Exp $
+
+!ダイアログボックス
+!dialog box
+! ウィンドウの背景と文字の色
+! background/foreground
+!	Emacs*dialog*background: AntiqueWhite
+!	Emacs*dialog*foreground: black
+
+! ボタンの色とボタンの文字の色とボタンの形
+! buttons
+!	Emacs*dialog*button1.foreground: PaleGreen
+!	Emacs*dialog*button1.background: SlateGray
+!	Emacs*dialog*button1.shapeStyle: Oval
+!	Emacs*dialog*button2.foreground: PaleGreen
+!	Emacs*dialog*button2.background: SlateGray
+!	Emacs*dialog*button2.shapeStyle: Oval
+!	Emacs*dialog*button3.foreground: PaleGreen
+!	Emacs*dialog*button3.background: SlateGray
+!	Emacs*dialog*button3.shapeStyle: Oval
+!	Emacs*dialog*button4.foreground: PaleGreen
+!	Emacs*dialog*button4.background: SlateGray
+!	Emacs*dialog*button4.shapeStyle: Oval
+!	Emacs*dialog*button5.foreground: PaleGreen
+!	Emacs*dialog*button5.background: SlateGray
+!	Emacs*dialog*button5.shapeStyle: Oval
+!	Emacs*dialog*button6.foreground: PaleGreen
+!	Emacs*dialog*button6.background: SlateGray
+!	Emacs*dialog*button6.shapeStyle: Oval
+!	Emacs*dialog*button7.foreground: PaleGreen
+!	Emacs*dialog*button7.background: SlateGray
+!	Emacs*dialog*button7.shapeStyle: Oval
+!	Emacs*dialog*button8.foreground: PaleGreen
+!	Emacs*dialog*button8.background: SlateGray
+!	Emacs*dialog*button8.shapeStyle: Oval
+!	Emacs*dialog*button9.foreground: PaleGreen
+!	Emacs*dialog*button9.background: SlateGray
+!	Emacs*dialog*button9.shapeStyle: Oval
+!	Xaw3d hack...
+!	Emacs*dialog*separator.shadowWidth: 0
+
+
+!メニューバー
+!menu bar
+! メニューバーの背景と文字の色
+!	Emacs*menubar.background: SlateGray
+!	Emacs*menubar.foreground: PaleGreen
+
+
+!ポップアップメニュー
+!popup menu
+! ポップアップメニューの背景と文字の色
+!	Emacs*popup.background: SlateGray
+!	Emacs*popup.foreground: PaleGreen
+
+
+!!
+!! for XEmacs only
+!!
+! "check box" or "radio button" color
+!	Emacs*menubar.selectColor: khaki
+!	Emacs*popup.selectColor: khaki
+! menu/popup highlight color
+!	Emacs*menubar.highlightForeground: khaki
+!	Emacs*popup.highlightForeground: khaki
+! popup title color
+!	Emacs*popup.titleForeground: PaleGreen
+! menu/popup font
+
+!!! color-mate.Xdefaults.add ends here
+
+!*ConversionStartKeys: <Key>Kanji

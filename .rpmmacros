@@ -1,0 +1,4 @@
+%_topdir ${HOME}/rpm
+#%packager Your Name	<your mail address>
+
+%_sysconfdir /etc
